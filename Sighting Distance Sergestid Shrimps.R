@@ -27,7 +27,7 @@ s.dist <- function(E,A,c,d,dt,N0){
 c <- 0.0468                         #Taken from Ruxton and Johnsen (2016)
 dtlow  <- 0.0417                    #Taken from Frank (2000)
 dthigh <- 0.0588                    #Taken from Frank (2000)
-dt <- dtlow+dthigh/2
+dt <- (dtlow+dthigh)/2
 N0 <- 0 
 d = 3*(10^-6)
 
